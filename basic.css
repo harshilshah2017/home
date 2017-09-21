@@ -1,0 +1,88 @@
+body
+{
+   font-family: Verdana, "Arial Narrow", monospace;
+   text-align : justify;
+   font-size: 13pt;
+   line-height: 21pt;
+   color: white;
+   background-image: url('space.jpg');
+   background-size: cover;
+}
+   
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+h1,h2,h3, h4 {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+ol
+{
+	width: 35%;
+	margin: auto;
+}
+
+#disclaimer {
+    font-weight: bold;
+	text-align: center;
+	line-height: 5pt;
+	color: red;
+}
+
+#p1 {
+    font-size: 65%;
+	text-align: justify;
+	line-height: 15pt;
+}
+
+#pic { 
+	border: 25px solid transparent;
+    padding: 5px;
+	border-image: url(blueborder.gif) 30 stretch;
+	margin: auto;
+	display: block;
+	width: 40%;
+}
+
+#pic1 { 
+	border: 25px solid transparent;
+    padding: 5px;
+	border-image: url(blueborder.gif) 30 stretch;
+	margin: auto;
+	display: block;
+	width: 40%;
+}
+
+ul.b {
+	list-style-position:inside;
+	list-style-type: square;
+}
+
+ul.a {
+    list-style-type: circle;
+	list-style-position:inside;
+}
+
+
+

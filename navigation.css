@@ -1,0 +1,55 @@
+body
+{
+   font-family: Verdana, "Arial Narrow", monospace;
+   text-align : justify;
+   font-size: 13pt;
+   line-height: 21pt;
+   color: black;
+   background-image: url("gps.gif");\
+}
+   
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: purple;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+#disclaimer {
+    font-weight: bold;
+	text-align: center;
+	line-height: 5pt;
+	color: red;
+}
+
+#p1 {
+       font-size: 65%;
+	text-align: justify;
+	line-height: 15pt;
+}
+
+#intro {
+     line-height: 18pt;
+}
+
